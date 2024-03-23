@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ background-color: rgb(137, 223, 32);
+ height: 80px;
+ width: 100%;
+}
+
+.button{
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    padding: 2px 2px;
+   
+}
+#amlogin{
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+ margin-top: 7px;
+ font-size: 15px;
+}
+#amsign{
+    padding: 10px 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    margin-top: 7px;
+    font-size: 15px;
+}.heropage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lineargredient(1px,2px,green,yellow) ;
+   
+}
+#register{
+    margin-bottom: 80px;
+    padding: 20px 20px;
+    background-color: orange;
+    border: none;
+   border-radius: 30px;
+   font-size: 20px;
+}
+.timing{
+    height: 80px;
+    width: 70%;
+    
+    margin: 0px 200px;
+    background-color: rgba(171, 237, 66, 0.904) ;
+    border: none;
+    border-radius: 10px;
+  padding: 0px 40px;
+   
+    box-shadow: 1px 10px 10px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle{
+    height: 130px;
+    width: 160px;
+    background-color:black;
+    color: white;
+    border: 6px solid white;
+   padding-top: 30px;
+  
+   border-radius: 100px;
+   transform: translate(600px ,-130px)   ;
+}
+.time{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 550px;
+ 
+}
+#topic{
+ margin: 100px 300px; 
+ font-weight:700;
+}
+.boxes{
+
+position: relative;
+margin-left: 250px;
+
+
+}
+.box1{
+    height: 300px;
+    width:450px ;
+    background-color: rgba(171, 237, 66, 0.904) ;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 0.9;
+     color: black;
+   /* font-size: 10px; */
+   box-shadow: 2px 2px 20px rgb(254, 252, 252);
+    }
+#hands{
+    margin-right: 200px;
+}
+.box1:hover{
+    
+}
+.box2{
+    height: 300px;
+    width:450px ;
+    background-color: rgba(236, 184, 88, 0.967);
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    margin-left: 200px;
+    z-index: 0.8;
+    box-shadow: 2px 2px 20px rgb(121, 120, 120);
+    padding-top: 10px;
+    
+}.box3{
+    height: 300px;
+    width:450px ;
+    background-color: pink ;
+    border: 2px solid white;
+    border-radius: 10px;
+   position: absolute;
+   top: 0;
+   margin-left: 400px;
+   box-shadow: 2px 2px 20px rgb(160, 151, 151);
+   padding-top: 10px;
+}.box4{
+
+    height: 300px;
+    width:450px ;
+    background-color:skyblue ;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 600px;
+    box-shadow: 1px 2px 20px rgb(86, 85, 85);
+    padding-top: 10px;
+   
+}
+#enroll{
+    padding: 20px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+.btn{
+    margin-top: 500px;
+}
+#enroll{
+    padding: 15px 15px;
+    background-color: orange;
+    color: black;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.fourthpage{
+   margin-top: 90px;
+}
+.main{
+    margin-top: 50px;
+display: flex;
+margin-left: 300px;
+}
+.first{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.second{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.third{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+
+.main2{
+   margin-bottom: 50px;
+display: flex;
+margin-left: 300px;
+}
+.firstt{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.secondd{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.thirdd{
+    height: 280px;
+    width: 300px;
+    background-color: aliceblue;
+    color: black;
+    border: 0px 1px 0px 0px solid black;
+    padding: 10px;
+}
+.divisions{
+display: flex;
+margin-left: 100px;
+margin-top: 20px;
+}
+.divisionone{
+    height: 180px;
+    width: 450px;
+    background-color: rgb(228, 172, 68);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.divisionsecond{
+    height: 180px;
+    width: 450px;
+    background-color: rgb(228, 172, 68);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.divisionthird{
+    height: 180px;
+    width: 450px;
+    background-color: rgb(228, 172, 68);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+.opportunity{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 10px;
+}
+.available{
+    display: flex;
+    
+}
+.symbol_available{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    border: none;
+}
+.booked{
+   display: flex
+}
+.symbol_booked{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 200px;
+    background-color:grey;
+    border: none;
+}
+.seat_display{
+    display: flex;
+    align-items: center;
+    margin: 0px 300px;
+}
+.seat_one{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px 8px;
+}
+.seat_two{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px 8px;
+}.seat_three{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:blue;
+    margin: 0px 8px;
+}.seat_four{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px 8px;
+}.seat_five{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px 8px;
+}.seat_six{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 0px 8px;
+}.seat_seven{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:blue;
+    margin: 0px 8px;
+}
+.seat_eight{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:blue;
+    margin: 0px 8px;
+}.seat_nine{
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:blue;
+    margin: 0px 8px;
+}
+.Enroll{
+    height: 650px;
+    width: 700px;
+    background-color: rgb(172, 232, 83);
+    color: black;
+    padding: 20px 50px;
+    margin: 10px 300px;
+    transform: translateY(60px); 
+}
+.input_tags{
+    display: flex;
+    align-items: center;
+
+}
+.leftinput{
+    padding: 50px 80px;
+}
+#input{
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+#messageinput{
+    height: 140px;
+    width: 490px;
+    border-radius: 10px;
+}
+#enrollsubmit{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 200;
+    margin: 30px 0px;
+}
+.additionaldata{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+.links{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+  padding: 60px;
+ /* text-align: center; */
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid yellow;
+    padding: 15px;
+ }
+ .navigation{
+    color: white;
+   text-align: start;
+ }
+ .navigation ol{
+   
+    padding-top: 10px;
+ }
+ #ampara{
+    height: 100px;
+    width: 170px;
+  color: white;
+ }
+ .label{
+    padding: 0px 30px;
+ }
+ .checkbox_lable{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+ }
+ .enroll_as{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ #selector{
+    border-radius: 50px;
+    width: 22px;
+ }
+ #formtag{
+    display: flex;
+ }
